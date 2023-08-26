@@ -1,0 +1,54 @@
+.container{
+  background-color: gainsboro;
+  width: 400rem;
+}
+
+.IntroPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 50vh;
+  background-image: url("../public/background_img.jpg");
+  /* background-image: url('../public/title-pic1.jpg'); */
+  background-size: 100rem 50rem;
+  margin-bottom: 1.5rem;
+}
+
+.IntroPage > *{
+  margin-left: 5rem;
+}
+
+.CardsInfo{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.links img{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.links .insta{
+  height: 2.5rem;
+  width: 5rem;
+}
+
+.BasicFooter{
+  justify-self: left;
+}
+
+.InfoPage{
+  background-color: whitesmoke;
+}
